@@ -1,9 +1,9 @@
 export const personalData = {
   name: "ABINESH R",
   profile: "/profile.png",
-  designation: "Engineering Student",
+  designation: "Tech and Innovation",
   description:
-    "My name is ABINESH R. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I am available for any kind of job opportunity that suits my skills and interests.",
+    "I am Abinesh R., a final-year Information Technology student at Anna University, MIT Campus, Chennai. I am a quick learner with a self-driven attitude, passionate about exploring new technologies and solving problems. I am open to job opportunities that match my skills and interests.",
   email: "neshabi096@gmail.com",
   phone: "+919361332818",
   address: "Chromepet, Chennai - 004",

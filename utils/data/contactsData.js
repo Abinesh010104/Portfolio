@@ -1,6 +1,6 @@
 export const contactsData = {
   email: "neshabi096@gmail.com",
-  phone: "+919361332818",
+  phone: "+918754327887",
   address: "Chromepet, Chennai - 004",
   github: "https://github.com/Abinesh010104",
   facebook: "",
