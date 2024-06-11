@@ -9,7 +9,6 @@ export const skillsData = [
   "Git",
   "Canva",
   "C++",
-  "Ubuntu",
   "C",
   "Python",
 ];

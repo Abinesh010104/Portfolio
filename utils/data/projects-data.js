@@ -14,6 +14,7 @@ export const projectsData = [
     code: "",
     demo: "https://abinesh-job-portal-client.vercel.app/login",
     image: crefin,
+    github: "https://github.com/Abinesh010104/JobPortal",
   },
   {
     id: 2,
@@ -25,6 +26,7 @@ export const projectsData = [
     code: "",
     demo: "",
     image: travel,
+    github: "https://github.com/Abinesh010104/Chennai-Express-Shortest-Path-",
   },
   {
     id: 3,
@@ -36,6 +38,8 @@ export const projectsData = [
     role: "Machine Learning Scientist",
     demo: "",
     image: realEstate,
+    github:
+      "https://github.com/Abinesh010104/Realtime-Fire-Detection-Alert-System",
   },
   {
     id: 4,
@@ -47,6 +51,7 @@ export const projectsData = [
     demo: "",
     image: ayla,
     role: "Full Stack Developer",
+    github: "https://github.com/Abinesh010104/Online_Food_Delivery_Website",
   },
 ];
 
