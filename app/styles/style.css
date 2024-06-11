@@ -1,0 +1,16 @@
+/* styles/heatmap.css */
+.react-calendar-heatmap .color-empty {
+  fill: #ffffff; /* White for empty */
+}
+.react-calendar-heatmap .color-scale-0 {
+  fill: #f3e5f5; /* Lightest purple */
+}
+.react-calendar-heatmap .color-scale-1 {
+  fill: #ce93d8; /* Lighter purple */
+}
+.react-calendar-heatmap .color-scale-2 {
+  fill: #ab47bc; /* Purple */
+}
+.react-calendar-heatmap .color-scale-3 {
+  fill: #8e24aa; /* Darkest purple */
+}
