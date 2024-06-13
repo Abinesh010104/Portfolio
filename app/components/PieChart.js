@@ -52,7 +52,7 @@ const PieChart = ({ data }) => {
           <Typography
             variant="body2"
             component="p"
-            className="text-lg text-gray-300 mb-2"
+            className="text-lg text-gray-300"
           >
             {totalQuestions - totalSolved} Unsolved
           </Typography>
