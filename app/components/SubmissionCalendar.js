@@ -2,7 +2,7 @@
 import React from "react";
 import CalendarHeatmap from "react-calendar-heatmap";
 import "react-calendar-heatmap/dist/styles.css";
-import "../styles/style.css";
+import "../styles/heatmap.css"; // Ensure this file is imported
 import { calcOpacity } from "../utils/calcOpacity"; // Assuming you have this utility function
 
 const SubmissionCalendar = ({ submissionCalendar }) => {
@@ -20,19 +20,32 @@ const SubmissionCalendar = ({ submissionCalendar }) => {
   );
 
   return (
-    <div className="mt-8 p-4 bg-white shadow-md rounded">
-      <CalendarHeatmap
-        startDate={startDate}
-        endDate={endDate}
-        values={values}
-        classForValue={(value) => {
-          if (!value) {
-            return "color-empty";
-          }
-          const opacity = calcOpacity(value.count);
-          return `color-scale-${Math.floor(opacity * 4)}`;
-        }}
-      />
+    <div className="mt-8 p-4 bg-[#0d1224] shadow-md rounded text-white">
+      <h2 className="text-center text-lg font-bold mb-4">
+        Submission Calendar
+      </h2>
+      <div className="heatmap-container">
+        <svg width="0" height="0">
+          <defs>
+            <linearGradient id="gradient-empty" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stopColor="#0d1224" stopOpacity="0.5" />
+              <stop offset="100%" stopColor="#0d1224" stopOpacity="0.3" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <CalendarHeatmap
+          startDate={startDate}
+          endDate={endDate}
+          values={values}
+          classForValue={(value) => {
+            if (!value) {
+              return "color-empty";
+            }
+            const opacity = calcOpacity(value.count);
+            return `color-scale-${Math.floor(opacity * 4)}`;
+          }}
+        />
+      </div>
     </div>
   );
 };

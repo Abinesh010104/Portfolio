@@ -1,0 +1,32 @@
+/* styles/heatmap.css */
+.react-calendar-heatmap .color-empty {
+  fill: url(#gradient-empty); /* Use a gradient for empty cells */
+  opacity: 0.3; /* Adjust opacity to make it subtle */
+}
+
+.react-calendar-heatmap .color-scale-0 {
+  fill: #d7b4ea; /* White */
+}
+
+.react-calendar-heatmap .color-scale-1 {
+  fill: #ac6fd9; /* Light Purple */
+}
+
+.react-calendar-heatmap .color-scale-2 {
+  fill: #7b3bbc; /* Medium Purple */
+}
+
+.react-calendar-heatmap .color-scale-3 {
+  fill: #6727a7; /* Dark Purple */
+}
+
+.react-calendar-heatmap text {
+  fill: #ffffff; /* Text color for the heatmap */
+}
+
+/* Add a border and some padding to the calendar */
+.heatmap-container {
+  padding: 16px; /* Adjust padding as needed */
+  border: 2px solid #1b2c68a0; /* Add border color to match the project card */
+  border-radius: 8px; /* Optional: rounded corners */
+}
